@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "/home/penguin/anaconda3/envs/flask/bin/python",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
