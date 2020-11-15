@@ -29,7 +29,7 @@ Starts both the frontend and backend as separate servers.
 
 ```
 npm run build
-flask run
+gunicorn --workers=5 --threads=2 --bind 0.0.0.0:5000 app:app
 ```
 
 Requests to backend root will automatically send frontend index.html.
